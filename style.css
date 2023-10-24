@@ -74,7 +74,7 @@ header .menu_slide,
 
 header .song_slide {
   width: 75%;
-  background: var(--song-slide-bg);
+  background-image: linear-gradient(to bottom, #75B1FF, #3D8DF5, #186ADE, #0D4EA6, #103A75, #11294D, #0D1826);
   overflow: auto;
   scroll-behavior: smooth;
 }
@@ -98,6 +98,10 @@ header .master_play {
     font-weight: 500;
 } */
 
+header .menu_slide{
+  background-color: #F0F4FA;
+}
+
 header .menu_slide .logo {
   position: relative;
   width: 89%;
@@ -120,7 +124,7 @@ header .menu_slide .playlist h4 {
   font-size: 18px;
   font-weight: 400;
   padding-bottom: 9px;
-  color: grey;
+  color: black;;
   cursor: pointer;
   display: flex;
   align-items: center;
@@ -132,7 +136,7 @@ header .menu_slide h6 {
 }
 
 header .menu_slide .playlist h4:hover {
-  color: white;
+  color: #186ADE;
 }
 
 header .menu_slide .playlist h4 span {
@@ -161,6 +165,7 @@ header .menu_slide .playlist h4 .bi {
 
 header .menu_slide .playlist .active {
   color: var(--playlist-active);
+  color:#186ADE ;
 }
 
 header .menu_slide .playlist .active span {
